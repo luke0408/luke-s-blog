@@ -9,13 +9,12 @@ const Comments = () => {
   return (
     // https://giscus.app/ko 를 확인해 주세요
     <Giscus
-      data-repo="luke0408/luke-s-blog"
-      data-repo-id="R_kgDOQZVVdw"
-      data-category="Announcements"
-      data-category-id="DIC_kwDOQZVVd84CyFM5"
-      data-mapping="title"
+      repo="luke0408/luke-s-blog"
+      repoId="R_kgDOQZVVdw"
+      category="Announcements"
+      categoryId="DIC_kwDOQZVVd84CyFM5"
+      mapping="title"
       id="comments"
-      mapping="pathname"
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="bottom"
